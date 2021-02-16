@@ -26,8 +26,8 @@
     margin: auto;
     padding: auto;
     background-color: var(--header-footer-background);
-    height: 600px;
     text-align: center;
+    padding-bottom: 200px;
     }
 
 .header-border {
@@ -175,11 +175,10 @@
     border: none;
     color: var(--white-text);
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 2.37;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    height: 50px;
     width: 200px;
 }
 
@@ -356,7 +355,6 @@
 /* футер адрес */
 .footer {
     background-color: var(--header-footer-background);
-    min-height: 252px;
 }
 
 .logo-footer {
