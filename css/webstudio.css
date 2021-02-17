@@ -28,6 +28,7 @@
     background-color: var(--header-footer-background);
     text-align: center;
     padding-bottom: 200px;
+    padding-top: 200px;
     }
 
 .header-border {
@@ -162,7 +163,6 @@
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-    padding-top: 200px;
     margin-bottom: 30px;
 }
 
@@ -195,6 +195,11 @@
 }
 
 /* секция особенности/преимущества */
+.advanteges-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .advanteges-section .block {
     display: flex;
     flex-wrap: nowrap;
@@ -224,9 +229,7 @@
     
     margin: 0;
     padding: 0;
-    margin-bottom: 10px;
-    padding-top: 94px;
-    
+    margin-bottom: 10px; 
 }
 
 .advanteges-description p {
@@ -238,12 +241,16 @@
     
     margin: 0;
     padding: 0;
-    padding-bottom: 94px;
+    
 }
 
 
 
 /* секция чем мы занимаемся*/
+.ourservice-block {
+    padding-bottom: 94px;
+}
+
 .ourservice {
     color: var(--black-text-main);
     font-weight: 500;
@@ -273,9 +280,6 @@
     margin-left: 0px;
 }
 
-.ourservice-cards img {
-        padding-bottom: 94px;
-}
 
 .ourservice-cards a:hover,
 .ourservice-cards a:focus,
@@ -289,14 +293,13 @@
     margin: 0;
     padding: 0;
     display: flex;
-    /* justify-content: space-between; */
-    padding-bottom: 94px;
+    
 }
 
 .ourteam-background {
     background-color: var(--ourteam-background);
-    margin: auto;
-    padding: auto;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .ourteam-title {
@@ -309,21 +312,21 @@
     
     margin: 0;
     padding: 0;
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 
 .ourteam-cards li {
     background-color: var(--card-background);
-    /* margin: 0;
-    padding: 0; */
     flex-basis: calc((100% - 90px) / 4);
-    /* height: 368px;
-    width: 270px; */
-}
+   }
 
 .ourteam-cards li:not(:first-child) {
     margin-left: 30px;
+}
+
+.card-frame {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .ourteam-name h4 {
@@ -335,7 +338,6 @@
     letter-spacing: 0.03em;
     margin: 0;
     padding: 0;
-    padding-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -348,25 +350,21 @@
     letter-spacing: 0.03em;
     margin: 0;
     padding: 0;
-    padding-bottom: 30px;
 }
 
 
 /* футер адрес */
 .footer {
     background-color: var(--header-footer-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer {
     margin: 0;
     padding: 0;
-    padding-top: 60px;
     padding-bottom: 20px;
 }
-
-.footer-address {
-    padding-bottom: 60px;
-    }
 
 .footer-city {
     color: var(--white-text);
@@ -379,7 +377,6 @@
     padding: 0;
     padding-bottom: 9px;
 }
-
 
 
 .footer-links {
