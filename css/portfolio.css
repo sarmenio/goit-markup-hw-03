@@ -41,6 +41,8 @@
 /* рамка для header */
 .header.border {
     border-bottom: 1px solid var(--border-nav-1px);
+    max-width: 1600px;
+    margin: auto;
 }
 
 
@@ -279,6 +281,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     max-width: 1600px;
+    margin: auto;
 }
 
 .logo-footer {
