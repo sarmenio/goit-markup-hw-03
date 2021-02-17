@@ -29,6 +29,7 @@
     text-align: center;
     padding-bottom: 200px;
     padding-top: 200px;
+    max-width: 1600px;
     }
 
 .header-border {
@@ -301,7 +302,8 @@
     background-color: var(--ourteam-background);
     padding-bottom: 94px;
     padding-top: 94px;
-}
+    max-width: 1600px;
+  }
 
 .ourteam-title {
     color: var(--black-text-main);
@@ -359,6 +361,7 @@
     background-color: var(--header-footer-background);
     padding-top: 60px;
     padding-bottom: 60px;
+    max-width: 1600px;
 }
 
 .logo-footer {
