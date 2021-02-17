@@ -272,17 +272,13 @@
     background-color: var(--blue-text-button);
 }
 
-/* футер */
-.footer {
-    background-color: var(--header-footer-background);
-}
-
 
 /* футер адрес */
 .footer {
     background-color: var(--header-footer-background);
     padding-top: 60px;
     padding-bottom: 60px;
+    max-width: 1600px;
 }
 
 .logo-footer {
