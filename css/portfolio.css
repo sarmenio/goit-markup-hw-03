@@ -37,14 +37,12 @@
     align-items: center;
 }
 
-
 /* рамка для header */
 .header.border {
     border-bottom: 1px solid var(--border-nav-1px);
     max-width: 1600px;
     margin: auto;
 }
-
 
 /* навинация и логотип*/
 .site-nav {
@@ -59,14 +57,12 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    
-}
+    }
 
 .logo:not(:last-child) {
       margin-right: 93px;
       padding-top: 24px;
       padding-bottom: 25px; 
-
 }
  
 .blue {
